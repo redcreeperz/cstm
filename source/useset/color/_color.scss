@@ -1,0 +1,124 @@
+@use "./color-var";
+
+@mixin colorVariables{
+    --cstm-white-base: #{color-var.$white-base};
+    --cstm-white-base-txtcolor: #{color-var.$white-base-txtcolor};
+    --cstm-black-base: #{color-var.$black-base};
+}
+
+@mixin backgroundColors{
+    .bg{
+        // Base Color
+        &-white{
+            background: color-var.$white-base;
+        }
+        &-black{
+            background: color-var.$black-base;
+            color: color-var.$blue-base-txtcolor;
+        }
+        &-red{
+            background: color-var.$red-base;
+            color: color-var.$red-base-txtcolor;
+        }
+        &-blue{
+            background: color-var.$blue-base;
+            color: #fff;
+        }
+        &-green{
+            background: color-var.$green-base;
+            color: #fff;
+        }
+        &-yellow{
+            background: color-var.$yellow-base;
+            color: #26230c;
+        }
+        &-orange{
+            background: color-var.$orange-base;
+            color: #26230c;
+        }
+        &-grey{
+            background: color-var.$grey-base;
+            color: #ebebeb;
+        }
+        &-purple{
+            background: color-var.$purple-base;
+            color: #f1f1f1;
+        }
+        &-brown{
+            background: color-var.$brown-base;
+            color: #f1f1f1;
+        }
+
+        // Subtle Color
+        &-subtle{
+            &-red{
+                background: color-var.$red-subtle;
+                color: #fff;
+            }
+            &-blue{
+                background: color-var.$blue-subtle;
+                color: #fff;
+            }
+            &-green{
+                background: color-var.$green-subtle;
+                color: #0e160e;
+            }
+            &-yellow{
+                background: color-var.$yellow-subtle;
+                color: #26230c;
+            }
+            &-orange{
+                background: color-var.$orange-subtle;
+                color: #26230c;
+            }
+            &-grey{
+                background: color-var.$grey-subtle;
+                color: #141414;
+            }
+            &-purple{
+                background: color-var.$purple-subtle;
+                color: #f1f1f1;
+            }
+            &-brown{
+                background: color-var.$brown-subtle;
+                color: #fff;
+            }
+        }
+
+        // Light Color
+        &-light{
+            &-red{
+                background: color-var.$red-light;
+                color: #261515;
+            }
+            &-blue{
+                background: color-var.$blue-light;
+                color: #141a28;
+            }
+            &-green{
+                background: color-var.$green-light;
+                color: #213421;
+            }
+            &-yellow{
+                background: color-var.$yellow-light;
+                color: #26230c;
+            }
+            &-orange{
+                background: color-var.$orange-light;
+                color: #26230c;
+            }
+            &-grey{
+                background: color-var.$grey-light;
+                color: #121212;
+            }
+            &-purple{
+                background: color-var.$purple-light;
+                color: #210b31;
+            }
+            &-brown{
+                background: color-var.$brown-light;
+                color: #181606;
+            }
+        }
+    }
+}

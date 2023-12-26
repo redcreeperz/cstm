@@ -1,0 +1,32 @@
+/* CSTM CSS
+Created by Avaid Studio
+With Productivity 
+*/
+
+// Initialize all Components
+// @use "useset/navbar";
+// @use "useset/sidebar";
+// @use "useset/flex-grid";
+@use "useset/color/color-var";
+@use "useset/color/color" as color;
+
+/* Root Top */
+:root{
+    font-family: 'Roboto', sans-serif;
+    @include color.colorVariables;
+}
+
+body{
+    background: #fff;
+}
+
+/* Colors */
+@include color.backgroundColors;
+
+
+
+.bg {
+    width: 8rem;
+    height: 10rem;
+    padding: 1rem;
+}
