@@ -1,0 +1,228 @@
+@use "./color-var";
+
+@mixin colorVariables{
+    // Base Color //
+    --cstm-white-base: #{color-var.$white-base};
+    --cstm-black-base: #{color-var.$black-base};
+
+    // Blue Color //
+    // Blue Base
+    --cstm-blue-base: #{color-var.$blue-base};
+    --cstm-blue-base-txtcolor: #{color-var.$blue-base-txtcolor};
+
+    // Blue Subtle
+    --cstm-blue-subtle: #{color-var.$blue-subtle};
+    --cstm-blue-subtle-txtcolor: #{color-var.$blue-subtle-txtcolor};
+
+    // Blue Light
+    --cstm-blue-light: #{color-var.$blue-light};
+    --cstm-blue-light-txtcolor: #{color-var.$blue-light-txtcolor};
+
+    // Red Color //
+    // Red Base
+    --cstm-red-base: #{color-var.$red-base};
+    --cstm-red-base-txtcolor: #{color-var.$red-base-txtcolor};
+
+    // Red Subtle
+    --cstm-red-subtle: #{color-var.$red-subtle};
+    --cstm-red-subtle-txtcolor: #{color-var.$red-subtle-txtcolor};
+
+    // Red Light
+    --cstm-red-light: #{color-var.$red-light};
+    --cstm-red-light-txtcolor: #{color-var.$red-light-txtcolor};
+
+    // Green Color //
+    // Green Base
+    --cstm-green-base: #{color-var.$green-base};
+    --cstm-green-base-txtcolor: #{color-var.$green-base-txtcolor};
+
+    // Green Subtle
+    --cstm-green-subtle: #{color-var.$green-subtle};
+    --cstm-green-subtle-txtcolor: #{color-var.$green-subtle-txtcolor};
+
+    // Green Light
+    --cstm-green-light: #{color-var.$green-light};
+    --cstm-green-light-txtcolor: #{color-var.$green-light-txtcolor};
+
+    // Yellow Color //
+    // Yellow Base
+    --cstm-yellow-base: #{color-var.$yellow-base};
+    --cstm-yellow-base-txtcolor: #{color-var.$yellow-base-txtcolor};
+
+    // Yellow Subtle
+    --cstm-yellow-subtle: #{color-var.$yellow-subtle};
+    --cstm-yellow-subtle-txtcolor: #{color-var.$yellow-subtle-txtcolor};
+
+    // Yellow Light
+    --cstm-yellow-light: #{color-var.$yellow-light};
+    --cstm-yellow-light-txtcolor: #{color-var.$yellow-light-txtcolor};
+
+    // Orange Color //
+    // Orange Base
+    --cstm-orange-base: #{color-var.$orange-base};
+    --cstm-orange-base-txtcolor: #{color-var.$orange-base-txtcolor};
+
+    // Orange Subtle
+    --cstm-orange-subtle: #{color-var.$orange-subtle};
+    --cstm-orange-subtle-txtcolor: #{color-var.$orange-subtle-txtcolor};
+
+    // Orange Light
+    --cstm-orange-light: #{color-var.$orange-light};
+    --cstm-orange-light-txtcolor: #{color-var.$orange-light-txtcolor};
+
+    // Grey Color //
+    // Grey Base
+    --cstm-grey-base: #{color-var.$grey-base};
+    --cstm-grey-base-txtcolor: #{color-var.$grey-base-txtcolor};
+
+    // Grey Subtle
+    --cstm-grey-subtle: #{color-var.$grey-subtle};
+    --cstm-grey-subtle-txtcolor: #{color-var.$grey-subtle-txtcolor};
+
+    // Grey Light
+    --cstm-grey-light: #{color-var.$grey-light};
+    --cstm-grey-light-txtcolor: #{color-var.$grey-light-txtcolor};
+
+    // Purple Color //
+    // Purple Base
+    --cstm-purple-base: #{color-var.$purple-base};
+    --cstm-purple-base-txtcolor: #{color-var.$purple-base-txtcolor};
+
+    // Purple Subtle
+    --cstm-purple-subtle: #{color-var.$purple-subtle};
+    --cstm-purple-subtle-txtcolor: #{color-var.$purple-subtle-txtcolor};
+
+    // Purple Light
+    --cstm-purple-light: #{color-var.$purple-light};
+    --cstm-purple-light-txtcolor: #{color-var.$purple-light-txtcolor};
+
+    // Brown Color //
+    // Brown Base
+    --cstm-brown-base: #{color-var.$brown-base};
+    --cstm-brown-base-txtcolor: #{color-var.$brown-base-txtcolor};
+
+    // Brown Subtle
+    --cstm-brown-subtle: #{color-var.$brown-subtle};
+    --cstm-brown-subtle-txtcolor: #{color-var.$brown-subtle-txtcolor};
+
+    // Brown Light
+    --cstm-brown-light: #{color-var.$brown-light};
+    --cstm-brown-light-txtcolor: #{color-var.$brown-light-txtcolor};
+}
+
+@mixin backgroundColors{
+    .bg{
+        // Base Color
+        &-white{
+            background: var(--cstm-white-base);
+        }
+        &-black{
+            background: color-var.$black-base;
+            color: color-var.$blue-base-txtcolor;
+        }
+        &-red{
+            background: color-var.$red-base;
+            color: color-var.$red-base-txtcolor;
+        }
+        &-blue{
+            background: color-var.$blue-base;
+            color: #fff;
+        }
+        &-green{
+            background: color-var.$green-base;
+            color: #fff;
+        }
+        &-yellow{
+            background: color-var.$yellow-base;
+            color: #26230c;
+        }
+        &-orange{
+            background: color-var.$orange-base;
+            color: #26230c;
+        }
+        &-grey{
+            background: color-var.$grey-base;
+            color: #ebebeb;
+        }
+        &-purple{
+            background: color-var.$purple-base;
+            color: #f1f1f1;
+        }
+        &-brown{
+            background: color-var.$brown-base;
+            color: #f1f1f1;
+        }
+
+        // Subtle Color
+        &-subtle{
+            &-red{
+                background: color-var.$red-subtle;
+                color: #fff;
+            }
+            &-blue{
+                background: color-var.$blue-subtle;
+                color: #fff;
+            }
+            &-green{
+                background: color-var.$green-subtle;
+                color: #0e160e;
+            }
+            &-yellow{
+                background: color-var.$yellow-subtle;
+                color: #26230c;
+            }
+            &-orange{
+                background: color-var.$orange-subtle;
+                color: #26230c;
+            }
+            &-grey{
+                background: color-var.$grey-subtle;
+                color: #141414;
+            }
+            &-purple{
+                background: color-var.$purple-subtle;
+                color: #f1f1f1;
+            }
+            &-brown{
+                background: color-var.$brown-subtle;
+                color: #fff;
+            }
+        }
+
+        // Light Color
+        &-light{
+            &-red{
+                background: color-var.$red-light;
+                color: #261515;
+            }
+            &-blue{
+                background: color-var.$blue-light;
+                color: #141a28;
+            }
+            &-green{
+                background: color-var.$green-light;
+                color: #213421;
+            }
+            &-yellow{
+                background: color-var.$yellow-light;
+                color: #26230c;
+            }
+            &-orange{
+                background: color-var.$orange-light;
+                color: #26230c;
+            }
+            &-grey{
+                background: color-var.$grey-light;
+                color: #121212;
+            }
+            &-purple{
+                background: color-var.$purple-light;
+                color: #210b31;
+            }
+            &-brown{
+                background: color-var.$brown-light;
+                color: #181606;
+            }
+        }
+    }
+}

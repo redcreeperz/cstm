@@ -1,0 +1,176 @@
+/* CSTM CSS
+Created by Avaid Studio
+With Productivity 
+*/
+/* Root Top */
+:root {
+  font-family: "Roboto", sans-serif;
+  /* Colors */
+  --cstm-white-base: #fff;
+  --cstm-black-base: #000;
+  --cstm-blue-base: #0085e3;
+  --cstm-blue-base-txtcolor: #fbfbfb;
+  --cstm-blue-subtle: #399de3;
+  --cstm-blue-subtle-txtcolor: #fbfbfb;
+  --cstm-blue-light: #78b8e5;
+  --cstm-blue-light-txtcolor: #fbfbfb;
+  --cstm-red-base: #e61111;
+  --cstm-red-base-txtcolor: #fbfbfb;
+  --cstm-red-subtle: #ed4a4a;
+  --cstm-red-subtle-txtcolor: #fbfbfb;
+  --cstm-red-light: #e99898;
+  --cstm-red-light-txtcolor: #fbfbfb;
+  --cstm-green-base: #16c516;
+  --cstm-green-base-txtcolor: #fbfbfb;
+  --cstm-green-subtle: #45d345;
+  --cstm-green-subtle-txtcolor: #fbfbfb;
+  --cstm-green-light: #abedab;
+  --cstm-green-light-txtcolor: #fbfbfb;
+  --cstm-yellow-base: #ffe421;
+  --cstm-yellow-base-txtcolor: #fbfbfb;
+  --cstm-yellow-subtle: #ffed6b;
+  --cstm-yellow-subtle-txtcolor: #fbfbfb;
+  --cstm-yellow-light: #fff6b3;
+  --cstm-yellow-light-txtcolor: #fbfbfb;
+  --cstm-orange-base: #ff8921;
+  --cstm-orange-base-txtcolor: #fbfbfb;
+  --cstm-orange-subtle: #ffac2b;
+  --cstm-orange-subtle-txtcolor: #fbfbfb;
+  --cstm-orange-light: #fde7c4;
+  --cstm-orange-light-txtcolor: #fbfbfb;
+  --cstm-grey-base: #7d7d7d;
+  --cstm-grey-base-txtcolor: #fbfbfb;
+  --cstm-grey-subtle: #ababab;
+  --cstm-grey-subtle-txtcolor: #fbfbfb;
+  --cstm-grey-light: #e1e1e1;
+  --cstm-grey-light-txtcolor: #fbfbfb;
+  --cstm-purple-base: #961def;
+  --cstm-purple-base-txtcolor: #fbfbfb;
+  --cstm-purple-subtle: #b95efb;
+  --cstm-purple-subtle-txtcolor: #fbfbfb;
+  --cstm-purple-light: #ebcfff;
+  --cstm-purple-light-txtcolor: #fbfbfb;
+  --cstm-brown-base: #533b07;
+  --cstm-brown-base-txtcolor: #fbfbfb;
+  --cstm-brown-subtle: #af801b;
+  --cstm-brown-subtle-txtcolor: #fbfbfb;
+  --cstm-brown-light: #ffe7b3;
+  --cstm-brown-light-txtcolor: #fbfbfb;
+}
+
+body {
+  background: #fff;
+}
+
+/* Colors */
+.bg-white {
+  background: var(--cstm-white-base);
+}
+.bg-black {
+  background: #000;
+  color: #fbfbfb;
+}
+.bg-red {
+  background: #e61111;
+  color: #fbfbfb;
+}
+.bg-blue {
+  background: #0085e3;
+  color: #fff;
+}
+.bg-green {
+  background: #16c516;
+  color: #fff;
+}
+.bg-yellow {
+  background: #ffe421;
+  color: #26230c;
+}
+.bg-orange {
+  background: #ff8921;
+  color: #26230c;
+}
+.bg-grey {
+  background: #7d7d7d;
+  color: #ebebeb;
+}
+.bg-purple {
+  background: #961def;
+  color: #f1f1f1;
+}
+.bg-brown {
+  background: #533b07;
+  color: #f1f1f1;
+}
+.bg-subtle-red {
+  background: #ed4a4a;
+  color: #fff;
+}
+.bg-subtle-blue {
+  background: #399de3;
+  color: #fff;
+}
+.bg-subtle-green {
+  background: #45d345;
+  color: #0e160e;
+}
+.bg-subtle-yellow {
+  background: #ffed6b;
+  color: #26230c;
+}
+.bg-subtle-orange {
+  background: #ffac2b;
+  color: #26230c;
+}
+.bg-subtle-grey {
+  background: #ababab;
+  color: #141414;
+}
+.bg-subtle-purple {
+  background: #b95efb;
+  color: #f1f1f1;
+}
+.bg-subtle-brown {
+  background: #af801b;
+  color: #fff;
+}
+.bg-light-red {
+  background: #e99898;
+  color: #261515;
+}
+.bg-light-blue {
+  background: #78b8e5;
+  color: #141a28;
+}
+.bg-light-green {
+  background: #abedab;
+  color: #213421;
+}
+.bg-light-yellow {
+  background: #fff6b3;
+  color: #26230c;
+}
+.bg-light-orange {
+  background: #fde7c4;
+  color: #26230c;
+}
+.bg-light-grey {
+  background: #e1e1e1;
+  color: #121212;
+}
+.bg-light-purple {
+  background: #ebcfff;
+  color: #210b31;
+}
+.bg-light-brown {
+  background: #ffe7b3;
+  color: #181606;
+}
+
+.bg {
+  width: 8rem;
+  height: 10rem;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=cstm.css.map */

@@ -13,6 +13,8 @@ With Productivity
 /* Root Top */
 :root{
     font-family: 'Roboto', sans-serif;
+
+    /* Colors */
     @include color.colorVariables;
 }
 
