@@ -4,11 +4,11 @@ With Productivity
 */
 
 // Initialize all Components
-// @use "useset/navbar";
-// @use "useset/sidebar";
-// @use "useset/flex-grid";
-@use "useset/color/color-var";
-@use "useset/color/color" as color;
+// @use "parts/navbar";
+// @use "parts/sidebar";
+@use "parts/flex-grid" as flex-grid;
+@use "parts/color-var";
+@use "parts/color" as color;
 
 /* Root Top */
 :root{
@@ -25,7 +25,8 @@ body{
 /* Colors */
 @include color.backgroundColors;
 
-
+/* Flex Display */
+@include flex-grid.flexDisplay;
 
 .bg {
     width: 8rem;

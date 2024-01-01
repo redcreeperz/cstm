@@ -56,6 +56,18 @@ With Productivity
   --cstm-brown-subtle-txtcolor: #fbfbfb;
   --cstm-brown-light: #ffe7b3;
   --cstm-brown-light-txtcolor: #fbfbfb;
+  --cstm-light-mode-base: #fbfbfb;
+  --cstm-light-mode-base-txtcolor: #000;
+  --cstm-light-mode-subtle: #af801b;
+  --cstm-light-mode-subtle-txtcolor: #fbfbfb;
+  --cstm-light-mode-light: #ffe7b3;
+  --cstm-light-mode-light-txtcolor: #fbfbfb;
+  --cstm-dark-mode-base: #000;
+  --cstm-dark-mode-base-txtcolor: #fff;
+  --cstm-dark-mode-subtle: #af801b;
+  --cstm-dark-mode-subtle-txtcolor: #fbfbfb;
+  --cstm-dark-mode-light: #ffe7b3;
+  --cstm-dark-mode-light-txtcolor: #fbfbfb;
 }
 
 body {
@@ -165,6 +177,11 @@ body {
 .bg-light-brown {
   background: #ffe7b3;
   color: #181606;
+}
+
+/* Flex Display */
+.d-flex {
+  display: flex !important;
 }
 
 .bg {

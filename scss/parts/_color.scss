@@ -5,6 +5,7 @@
     --cstm-white-base: #{color-var.$white-base};
     --cstm-black-base: #{color-var.$black-base};
 
+
     // Blue Color //
     // Blue Base
     --cstm-blue-base: #{color-var.$blue-base};
@@ -17,6 +18,7 @@
     // Blue Light
     --cstm-blue-light: #{color-var.$blue-light};
     --cstm-blue-light-txtcolor: #{color-var.$blue-light-txtcolor};
+
 
     // Red Color //
     // Red Base
@@ -31,6 +33,7 @@
     --cstm-red-light: #{color-var.$red-light};
     --cstm-red-light-txtcolor: #{color-var.$red-light-txtcolor};
 
+
     // Green Color //
     // Green Base
     --cstm-green-base: #{color-var.$green-base};
@@ -43,6 +46,7 @@
     // Green Light
     --cstm-green-light: #{color-var.$green-light};
     --cstm-green-light-txtcolor: #{color-var.$green-light-txtcolor};
+
 
     // Yellow Color //
     // Yellow Base
@@ -57,6 +61,7 @@
     --cstm-yellow-light: #{color-var.$yellow-light};
     --cstm-yellow-light-txtcolor: #{color-var.$yellow-light-txtcolor};
 
+
     // Orange Color //
     // Orange Base
     --cstm-orange-base: #{color-var.$orange-base};
@@ -69,6 +74,7 @@
     // Orange Light
     --cstm-orange-light: #{color-var.$orange-light};
     --cstm-orange-light-txtcolor: #{color-var.$orange-light-txtcolor};
+
 
     // Grey Color //
     // Grey Base
@@ -83,6 +89,7 @@
     --cstm-grey-light: #{color-var.$grey-light};
     --cstm-grey-light-txtcolor: #{color-var.$grey-light-txtcolor};
 
+
     // Purple Color //
     // Purple Base
     --cstm-purple-base: #{color-var.$purple-base};
@@ -96,6 +103,7 @@
     --cstm-purple-light: #{color-var.$purple-light};
     --cstm-purple-light-txtcolor: #{color-var.$purple-light-txtcolor};
 
+
     // Brown Color //
     // Brown Base
     --cstm-brown-base: #{color-var.$brown-base};
@@ -108,6 +116,34 @@
     // Brown Light
     --cstm-brown-light: #{color-var.$brown-light};
     --cstm-brown-light-txtcolor: #{color-var.$brown-light-txtcolor};
+
+    
+    // Light Mode Color //
+    // Light Mode Base
+    --cstm-light-mode-base: #{color-var.$light-mode-base};
+    --cstm-light-mode-base-txtcolor: #{color-var.$light-mode-base-txtcolor};
+
+    // Light Mode Subtle
+    --cstm-light-mode-subtle: #{color-var.$light-mode-subtle};
+    --cstm-light-mode-subtle-txtcolor: #{color-var.$light-mode-subtle-txtcolor};
+
+    // Light Mode Light
+    --cstm-light-mode-light: #{color-var.$light-mode-light};
+    --cstm-light-mode-light-txtcolor: #{color-var.$light-mode-light-txtcolor};
+
+    
+    // Dark Mode Color //
+    // Dark Mode Base
+    --cstm-dark-mode-base: #{color-var.$dark-mode-base};
+    --cstm-dark-mode-base-txtcolor: #{color-var.$dark-mode-base-txtcolor};
+
+    // Dark Mode Subtle
+    --cstm-dark-mode-subtle: #{color-var.$dark-mode-subtle};
+    --cstm-dark-mode-subtle-txtcolor: #{color-var.$dark-mode-subtle-txtcolor};
+
+    // Dark Mode Light
+    --cstm-dark-mode-light: #{color-var.$dark-mode-light};
+    --cstm-dark-mode-light-txtcolor: #{color-var.$dark-mode-light-txtcolor};
 }
 
 @mixin backgroundColors{

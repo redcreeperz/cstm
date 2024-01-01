@@ -1,4 +1,6 @@
-/* Flex */
-.d-flex{
-    display: flex !important;
+// Flex Display
+@mixin flexDisplay {
+    .d-flex{
+        display: flex !important;
+    }
 }
