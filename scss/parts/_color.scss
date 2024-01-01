@@ -3,162 +3,195 @@
 @mixin colorVariables{
     // Base Color //
     --cstm-white-base: #{color-var.$white-base};
+    --cstm-white-base-txtcolor: #{color-var.$white-base-txtcolor};
     --cstm-black-base: #{color-var.$black-base};
+    --cstm-black-base-txtcolor: #{color-var.$black-base-txtcolor};
 
 
     // Blue Color //
     // Blue Base
     --cstm-blue-base: #{color-var.$blue-base};
     --cstm-blue-base-txtcolor: #{color-var.$blue-base-txtcolor};
+    --cstm-blue-base-txtcoloralt: #{color-var.$blue-base-txtcoloralt};
 
     // Blue Subtle
     --cstm-blue-subtle: #{color-var.$blue-subtle};
     --cstm-blue-subtle-txtcolor: #{color-var.$blue-subtle-txtcolor};
+    --cstm-blue-subtle-txtcoloralt: #{color-var.$blue-subtle-txtcoloralt};
 
     // Blue Light
     --cstm-blue-light: #{color-var.$blue-light};
     --cstm-blue-light-txtcolor: #{color-var.$blue-light-txtcolor};
+    --cstm-blue-light-txtcoloralt: #{color-var.$blue-light-txtcoloralt}; 
 
 
     // Red Color //
     // Red Base
     --cstm-red-base: #{color-var.$red-base};
     --cstm-red-base-txtcolor: #{color-var.$red-base-txtcolor};
+    --cstm-red-base-txtcoloralt: #{color-var.$red-base-txtcoloralt};
 
     // Red Subtle
     --cstm-red-subtle: #{color-var.$red-subtle};
     --cstm-red-subtle-txtcolor: #{color-var.$red-subtle-txtcolor};
+    --cstm-red-subtle-txtcoloralt: #{color-var.$red-subtle-txtcoloralt};
 
     // Red Light
     --cstm-red-light: #{color-var.$red-light};
     --cstm-red-light-txtcolor: #{color-var.$red-light-txtcolor};
+    --cstm-red-light-txtcoloralt: #{color-var.$red-light-txtcoloralt}; 
 
 
     // Green Color //
     // Green Base
     --cstm-green-base: #{color-var.$green-base};
     --cstm-green-base-txtcolor: #{color-var.$green-base-txtcolor};
+    --cstm-green-base-txtcoloralt: #{color-var.$green-base-txtcoloralt};
 
     // Green Subtle
     --cstm-green-subtle: #{color-var.$green-subtle};
     --cstm-green-subtle-txtcolor: #{color-var.$green-subtle-txtcolor};
+    --cstm-green-subtle-txtcoloralt: #{color-var.$green-subtle-txtcoloralt};
 
     // Green Light
     --cstm-green-light: #{color-var.$green-light};
     --cstm-green-light-txtcolor: #{color-var.$green-light-txtcolor};
+    --cstm-green-light-txtcoloralt: #{color-var.$green-light-txtcoloralt}; 
 
 
     // Yellow Color //
     // Yellow Base
     --cstm-yellow-base: #{color-var.$yellow-base};
     --cstm-yellow-base-txtcolor: #{color-var.$yellow-base-txtcolor};
+    --cstm-yellow-base-txtcoloralt: #{color-var.$yellow-base-txtcoloralt};
 
     // Yellow Subtle
     --cstm-yellow-subtle: #{color-var.$yellow-subtle};
     --cstm-yellow-subtle-txtcolor: #{color-var.$yellow-subtle-txtcolor};
+    --cstm-yellow-subtle-txtcoloralt: #{color-var.$yellow-subtle-txtcoloralt};
 
     // Yellow Light
     --cstm-yellow-light: #{color-var.$yellow-light};
     --cstm-yellow-light-txtcolor: #{color-var.$yellow-light-txtcolor};
+    --cstm-yellow-light-txtcoloralt: #{color-var.$yellow-light-txtcoloralt}; 
 
 
     // Orange Color //
     // Orange Base
     --cstm-orange-base: #{color-var.$orange-base};
     --cstm-orange-base-txtcolor: #{color-var.$orange-base-txtcolor};
+    --cstm-orange-base-txtcoloralt: #{color-var.$orange-base-txtcoloralt};
 
     // Orange Subtle
     --cstm-orange-subtle: #{color-var.$orange-subtle};
     --cstm-orange-subtle-txtcolor: #{color-var.$orange-subtle-txtcolor};
+    --cstm-orange-subtle-txtcoloralt: #{color-var.$orange-subtle-txtcoloralt};
 
     // Orange Light
     --cstm-orange-light: #{color-var.$orange-light};
     --cstm-orange-light-txtcolor: #{color-var.$orange-light-txtcolor};
+    --cstm-orange-light-txtcoloralt: #{color-var.$orange-light-txtcoloralt}; 
 
 
     // Grey Color //
     // Grey Base
     --cstm-grey-base: #{color-var.$grey-base};
     --cstm-grey-base-txtcolor: #{color-var.$grey-base-txtcolor};
+    --cstm-grey-base-txtcoloralt: #{color-var.$grey-base-txtcoloralt};
 
     // Grey Subtle
     --cstm-grey-subtle: #{color-var.$grey-subtle};
     --cstm-grey-subtle-txtcolor: #{color-var.$grey-subtle-txtcolor};
+    --cstm-grey-subtle-txtcoloralt: #{color-var.$grey-subtle-txtcoloralt};
 
     // Grey Light
     --cstm-grey-light: #{color-var.$grey-light};
     --cstm-grey-light-txtcolor: #{color-var.$grey-light-txtcolor};
+    --cstm-grey-light-txtcoloralt: #{color-var.$grey-light-txtcoloralt}; 
 
 
     // Purple Color //
     // Purple Base
     --cstm-purple-base: #{color-var.$purple-base};
     --cstm-purple-base-txtcolor: #{color-var.$purple-base-txtcolor};
+    --cstm-purple-base-txtcoloralt: #{color-var.$purple-base-txtcoloralt};
 
     // Purple Subtle
     --cstm-purple-subtle: #{color-var.$purple-subtle};
     --cstm-purple-subtle-txtcolor: #{color-var.$purple-subtle-txtcolor};
+    --cstm-purple-subtle-txtcoloralt: #{color-var.$purple-subtle-txtcoloralt};
 
     // Purple Light
     --cstm-purple-light: #{color-var.$purple-light};
     --cstm-purple-light-txtcolor: #{color-var.$purple-light-txtcolor};
+    --cstm-purple-light-txtcoloralt: #{color-var.$purple-light-txtcoloralt}; 
 
 
     // Brown Color //
     // Brown Base
     --cstm-brown-base: #{color-var.$brown-base};
     --cstm-brown-base-txtcolor: #{color-var.$brown-base-txtcolor};
+    --cstm-brown-base-txtcoloralt: #{color-var.$brown-base-txtcoloralt};
 
     // Brown Subtle
     --cstm-brown-subtle: #{color-var.$brown-subtle};
     --cstm-brown-subtle-txtcolor: #{color-var.$brown-subtle-txtcolor};
+    --cstm-brown-subtle-txtcoloralt: #{color-var.$brown-subtle-txtcoloralt};
 
     // Brown Light
     --cstm-brown-light: #{color-var.$brown-light};
     --cstm-brown-light-txtcolor: #{color-var.$brown-light-txtcolor};
+    --cstm-brown-light-txtcoloralt: #{color-var.$brown-light-txtcoloralt}; 
 
     
     // Light Mode Color //
     // Light Mode Base
     --cstm-light-mode-base: #{color-var.$light-mode-base};
     --cstm-light-mode-base-txtcolor: #{color-var.$light-mode-base-txtcolor};
+    --cstm-light-mode-base-txtcoloralt: #{color-var.$light-mode-base-txtcoloralt};
 
     // Light Mode Subtle
     --cstm-light-mode-subtle: #{color-var.$light-mode-subtle};
     --cstm-light-mode-subtle-txtcolor: #{color-var.$light-mode-subtle-txtcolor};
+    --cstm-light-mode-subtle-txtcoloralt: #{color-var.$light-mode-subtle-txtcoloralt};
 
     // Light Mode Light
     --cstm-light-mode-light: #{color-var.$light-mode-light};
     --cstm-light-mode-light-txtcolor: #{color-var.$light-mode-light-txtcolor};
+    --cstm-light-mode-light-txtcoloralt: #{color-var.$light-mode-light-txtcoloralt}; 
 
     
     // Dark Mode Color //
     // Dark Mode Base
     --cstm-dark-mode-base: #{color-var.$dark-mode-base};
     --cstm-dark-mode-base-txtcolor: #{color-var.$dark-mode-base-txtcolor};
+    --cstm-dark-mode-base-txtcoloralt: #{color-var.$dark-mode-base-txtcoloralt};
 
     // Dark Mode Subtle
     --cstm-dark-mode-subtle: #{color-var.$dark-mode-subtle};
     --cstm-dark-mode-subtle-txtcolor: #{color-var.$dark-mode-subtle-txtcolor};
+    --cstm-dark-mode-subtle-txtcoloralt: #{color-var.$dark-mode-subtle-txtcoloralt};
 
     // Dark Mode Light
     --cstm-dark-mode-light: #{color-var.$dark-mode-light};
     --cstm-dark-mode-light-txtcolor: #{color-var.$dark-mode-light-txtcolor};
+    --cstm-dark-mode-light-txtcoloralt: #{color-var.$dark-mode-light-txtcoloralt}; 
 }
 
-@mixin backgroundColors{
-    .bg{
+@mixin backgroundColors {
+    [data-cstm-theme-mode="light"] .bg{
         // Base Color
         &-white{
             background: var(--cstm-white-base);
+            color: var(--cstm-white-base-txtcolor);
         }
         &-black{
-            background: color-var.$black-base;
-            color: color-var.$blue-base-txtcolor;
+            background: var(--cstm-black-base);
+            color: var(--cstm-black-base-txtcolor);
         }
         &-red{
-            background: color-var.$red-base;
-            color: color-var.$red-base-txtcolor;
+            background: var(--cstm-red-base);
+            color: var(--cstm-red-base-txtcolor);
         }
         &-blue{
             background: color-var.$blue-base;

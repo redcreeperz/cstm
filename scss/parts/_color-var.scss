@@ -1,106 +1,138 @@
 // Color 
 // Basic Color 
 $white-base: #fff;
+$white-base-txtcolor: #000;
 $black-base: #000;
+$black-base-txtcolor: #fff;
 
 // Blue Color 
 $blue-base: #0085e3;
-$blue-base-txtcolor: #fbfbfb;
+$blue-base-txtcolor: #000;
+$blue-base-txtcoloralt: #fbfbfb;
 
 $blue-subtle: #399de3;
 $blue-subtle-txtcolor: #fbfbfb;
+$blue-subtle-txtcoloralt: #fbfbfb;
 
 $blue-light: #78b8e5;
 $blue-light-txtcolor: #fbfbfb;
+$blue-light-txtcoloralt: #fbfbfb;
 
 // Red Color 
 $red-base: #e61111;
 $red-base-txtcolor: #fbfbfb;
+$red-base-txtcoloralt: #fbfbfb;
 
 $red-subtle: #ed4a4a;
 $red-subtle-txtcolor: #fbfbfb;
+$red-subtle-txtcoloralt: #fbfbfb;
 
 $red-light: #e99898;
 $red-light-txtcolor: #fbfbfb;
+$red-light-txtcoloralt: #fbfbfb;
 
 // Green Color 
 $green-base: #16c516;
 $green-base-txtcolor: #fbfbfb;
+$green-base-txtcoloralt: #fbfbfb;
 
 $green-subtle: #45d345;
 $green-subtle-txtcolor: #fbfbfb;
+$green-subtle-txtcoloralt: #fbfbfb;
 
 $green-light: #abedab;
 $green-light-txtcolor: #fbfbfb;
+$green-light-txtcoloralt: #fbfbfb;
 
 // Yellow Color 
 $yellow-base: #ffe421;
 $yellow-base-txtcolor: #fbfbfb;
+$yellow-base-txtcoloralt: #fbfbfb;
 
 $yellow-subtle: #ffed6b;
 $yellow-subtle-txtcolor: #fbfbfb;
+$yellow-subtle-txtcoloralt: #fbfbfb;
 
 $yellow-light: #fff6b3;
 $yellow-light-txtcolor: #fbfbfb;
+$yellow-light-txtcoloralt: #fbfbfb;
 
 // Orange Color 
 $orange-base: #ff8921;
 $orange-base-txtcolor: #fbfbfb;
+$orange-base-txtcoloralt: #fbfbfb;
 
 $orange-subtle: #ffac2b;
 $orange-subtle-txtcolor: #fbfbfb;
+$orange-subtle-txtcoloralt: #fbfbfb;
 
 $orange-light: #fde7c4;
 $orange-light-txtcolor: #fbfbfb;
+$orange-light-txtcoloralt: #fbfbfb;
 
 // Grey Color 
 $grey-base: #7d7d7d;
 $grey-base-txtcolor: #fbfbfb;
+$grey-base-txtcoloralt: #fbfbfb;
 
 $grey-subtle: #ababab;
 $grey-subtle-txtcolor: #fbfbfb;
+$grey-subtle-txtcoloralt: #fbfbfb;
 
 $grey-light: #e1e1e1;
 $grey-light-txtcolor: #fbfbfb;
+$grey-light-txtcoloralt: #fbfbfb;
 
 // Purple Color 
 $purple-base: #961def;
 $purple-base-txtcolor: #fbfbfb;
+$purple-base-txtcoloralt: #fbfbfb;
 
 $purple-subtle: #b95efb;
 $purple-subtle-txtcolor: #fbfbfb;
+$purple-subtle-txtcoloralt: #fbfbfb;
 
 $purple-light: #ebcfff;
 $purple-light-txtcolor: #fbfbfb;
+$purple-light-txtcoloralt: #fbfbfb;
 
 // Brown Color 
 $brown-base: #533b07;
 $brown-base-txtcolor: #fbfbfb;
+$brown-base-txtcoloralt: #fbfbfb;
 
 $brown-subtle: #af801b;
 $brown-subtle-txtcolor: #fbfbfb;
+$brown-subtle-txtcoloralt: #fbfbfb;
 
 $brown-light: #ffe7b3;
 $brown-light-txtcolor: #fbfbfb;
+$brown-light-txtcoloralt: #fbfbfb;
 
 
 // Color Modes 
 // Light Mode 
 $light-mode-base: #fbfbfb;
 $light-mode-base-txtcolor: #000;
+$light-mode-base-txtcoloralt: #fbfbfb;
 
 $light-mode-subtle: #af801b;
 $light-mode-subtle-txtcolor: #fbfbfb;
+$light-mode-subtle-txtcoloralt: #fbfbfb;
 
 $light-mode-light: #ffe7b3;
 $light-mode-light-txtcolor: #fbfbfb;
+$light-mode-light-txtcoloralt: #fbfbfb;
 
 // Dark Mode 
 $dark-mode-base: #000;
 $dark-mode-base-txtcolor: #fff;
+$dark-mode-base-txtcoloralt: #fbfbfb;
 
 $dark-mode-subtle: #af801b;
 $dark-mode-subtle-txtcolor: #fbfbfb;
+$dark-mode-subtle-txtcoloralt: #fbfbfb;
 
 $dark-mode-light: #ffe7b3;
 $dark-mode-light-txtcolor: #fbfbfb;
+$dark-mode-light-txtcoloralt: #fbfbfb;
